@@ -10,9 +10,5 @@ def main():
 def hello():
     return 'I am good, how about you?'
 
-@app.route('/how are you1')
-def hello():
-    return 'I am good, how about you1?'
-
 if __name__ == "__main__":
     app.run()
